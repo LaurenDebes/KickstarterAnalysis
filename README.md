@@ -16,7 +16,7 @@ Our findings showed that campaigns were most successful when started in May. The
 
 ## Analysis of Outcomes Based on Goals
 We then wanted to analyze how often a campaign was successful based on the amount of the goal. The amounts were separated into $5,000 increments. We used the COUNTIFS function to count the number of successful, failed, and canceled campaigns within each goal. We then broke it into percentages to create a line graph from; using percentages gave a better picture of the data. We found that percentage successful generally went down the greater the outcome goal, except for a bump between $35,000-45,000. The percentage failed generally increased the greater the outcome goal, except for again between $35,000-45,000. There were zero cancelled plays. We used a line graph to clearly show up the changing percentages by category.
-![OutcomesAndGoals]("https://github.com/LaurenDebes/KickstarterAnalysis/blob/77545431fc3799b67bf0a9a71979f16e98f71b90/Outcomes_vs_Goals.png")
+![OutcomesAndGoals](https://raw.githubusercontent.com/LaurenDebes/KickstarterAnalysis/main/Outcomes_vs_Goals.png)
 
 ## Challenges and Difficulties Encountered
 Our "outcomes based on launch date" graph could perhaps be more informative if we used *percentage* of successful/failed/canceled campaigns for each month rather than the overall count. It looks as though the highest month for failed campaigns was in May, the same month where there was the highest number of successful campaigns, but if we used percentage we would know it only looks this way because there is the largest grand total of campaigns started in May. I would argue we do not need to analyze cancelled campaigns and they do not have a great impact on our data. We should also filter by country.
