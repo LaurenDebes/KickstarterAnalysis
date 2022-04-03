@@ -12,7 +12,8 @@ We made a pivot chart from the data filtering to show only theater as the parent
 
 Our findings showed that campaigns were most successful when started in May. The other summer months, June and July, were the next highest. May and October had the greatest number of failed campaigns. Cancelled campaigns generally remained the same month by month.
 
-![Theater_Outcomes_vs_Launch.png]("C:\Users\laure\OneDrive\Desktop\Class_folder\Crowdfunding analysis\Challenge\Resources\Theater_Outcomes_vs_Launch.png") 
+![Theater_Outcomes_vs_Launch.png](https://raw.githubusercontent.com/LaurenDebes/KickstarterAnalysis/main/Theater_Outcomes_vs_Launch.png)
+
 ## Analysis of Outcomes Based on Goals
 We then wanted to analyze how often a campaign was successful based on the amount of the goal. The amounts were separated into $5,000 increments. We used the COUNTIFS function to count the number of successful, failed, and canceled campaigns within each goal. We then broke it into percentages to create a line graph from; using percentages gave a better picture of the data. We found that percentage successful generally went down the greater the outcome goal, except for a bump between $35,000-45,000. The percentage failed generally increased the greater the outcome goal, except for again between $35,000-45,000. There were zero cancelled plays. We used a line graph to clearly show up the changing percentages by category.
 ![OutcomesAndGoals]("https://github.com/LaurenDebes/KickstarterAnalysis/blob/77545431fc3799b67bf0a9a71979f16e98f71b90/Outcomes_vs_Goals.png")
