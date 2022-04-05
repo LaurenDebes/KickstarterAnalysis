@@ -16,12 +16,14 @@ Our findings showed that campaigns were most successful when started in May. The
 
 ## Analysis of Outcomes Based on Goals
 We then wanted to analyze how often a campaign was successful based on the amount of the goal. The amounts were separated into $5,000 increments. We used the COUNTIFS function to count the number of successful, failed, and canceled campaigns within each goal. We then broke it into percentages to create a line graph from; using percentages gave a better picture of the data. We found that percentage successful generally went down the greater the outcome goal, except for a bump between $35,000-45,000. The percentage failed generally increased the greater the outcome goal, except for again between $35,000-45,000. There were zero cancelled plays. We used a line graph to clearly show up the changing percentages by category.
-![OutcomesAndGoals](https://raw.githubusercontent.com/LaurenDebes/KickstarterAnalysis/main/Outcomes_vs_Goals.png)
+![OutcomesAndGoals](https://raw.githubusercontent.com/LaurenDebes/KickstarterAnalysis/411c161078926910e9e88c57b65daa5d829ed435/Outcomes_vs_Goals.png)
 
 ## Challenges and Difficulties Encountered
 Our "outcomes based on launch date" graph could perhaps be more informative if we used *percentage* of successful/failed/canceled campaigns for each month rather than the overall count. It looks as though the highest month for failed campaigns was in May, the same month where there was the highest number of successful campaigns, but if we used percentage we would know it only looks this way because there is the largest grand total of campaigns started in May. I would argue we do not need to analyze cancelled campaigns and they do not have a great impact on our data. We should also filter by country.
 
 A potential challenge would be forgetting to filter out the "outcomes based on goals" to only look at "plays." It was also very important to include $ symbols before all of the columns that stayed the same, so that you could quickly drag the formula between columns. At first I did not realize the $ needed to be added and all of the formulas moved over incorrectly and would have taken awhile to correct. Luckily I caught it though! There were zero plays canceled, I dont think its worth keeping that category.
+
+In my original submission of the assignment, I had one incorrect formula in my "Outcomes vs Goals" area. I had forgotten to add the section of the formula that filters to show only the "plays" category from the $5,000-9,999 range. 
 ## Results
 Our results showed that for "Outcomes based on Launch Date" the summer months generally had a greater rate of successful campaigns than the winter months. The successful versus failed line graphs follow a somewhat similar pattern, likely due to the grand total shifting. We can conclude that Louise should start her campaign during the summer and avoid campaigns in the Fall/Winter. The results also show that more campaigns are successful than failed.
 
